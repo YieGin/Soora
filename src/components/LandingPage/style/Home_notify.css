@@ -1,0 +1,137 @@
+.Landing_notify_left {
+  width: 50%;
+}
+.Landing_notify_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}
+.Landing_notify_right > h4 {
+  padding-bottom: 5%;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+}
+.Landing_notify_right > h1 {
+  font-size: 70px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.Landing_notify_right_phone {
+  width: 50%;
+  display: none;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}
+.Landing_notify_right_phone > h4 {
+  padding-bottom: 5%;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+}
+.Landing_notify_right_phone > h1 {
+  font-size: 70px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.Search_div {
+  padding: 5px;
+  max-width: 600px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  align-items: center;
+}
+
+.Search {
+  margin-left: 20px;
+  flex: 2 1;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  background: none;
+  border-radius: 50px;
+  outline:none;
+  width: 80%;
+}
+.Notify_Me {
+  background: #000;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 50px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.No_spam {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 1030px) {
+  .Landing_Image2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .Landing_notify_left {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .Landing_notify_right {
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+  .Landing_Image2 {
+    width: 50%;
+  }
+  .Search_div {
+    margin-top: 5%;
+  }
+  .Notify_Me {
+    padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .Landing_notify_right_phone {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  .Landing_notify_right_phone > h1 {
+    font-size: 35px;
+    font-weight: 700;
+    white-space: pre-wrap;
+  }
+  .Landing_notify_right {
+    width: 100%;
+    align-items: center;
+    display: none;
+  }
+  .Landing_Image2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .Notify_Me {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+  .Search_div {
+    height: 55px;
+  }
+}

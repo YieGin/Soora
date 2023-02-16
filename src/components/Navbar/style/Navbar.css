@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+* {
+  font-family: Inter,sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Navbar_main {
+  display: flex;
+  height: 130px;
+  width: 97%;
+  padding-left: 3%;
+  padding-right: 1%;
+  align-items: center;
+}
+.logo1_div {
+  margin-right: auto;
+}
+.logo1 {
+  width: 140px;
+  height: 30px;
+  align-items: center;
+}
+.Navbar_right {
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .Navbar_main {
+    display: flex;
+    height: 100%;
+    padding: 0;
+    padding-bottom: 15%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+  }
+  .logo1_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10%;
+  }
+}

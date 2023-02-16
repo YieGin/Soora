@@ -1,0 +1,15 @@
+.Footer_main {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(1, 1, 1, 0.804);
+}
+
+
+@media screen and (max-width: 281px) {
+  .Footer_main {
+    text-align: center;
+  }
+}
